@@ -120,6 +120,7 @@ main{
 	clear:both;
 }
 #life1{
+	
 	transition: transform 0.3s ease-in-out;
 	background-image: url("../images/jaguar.jpg");
 	background-position: -125px -200px;
@@ -381,4 +382,156 @@ main{
 	font-family: Ubuntu, sans-serif;
 	margin-left: 30px;
 }
+
+/* Ovde se zavrsava wild life */
+
+#main{
+	margin:35px auto;
+	width: 90%;
+	height: 2450px;
+	background-color: #2222ff;
+	padding:15px;
+	background-color: #0d5e03;	
+	border-radius: 15px;
+}
+#kec{
+	width:100%;
+	height: 600px;
+	background-color: #5555aa;
+	border-radius: 30px;
+}
+#kec img{
+	width:100%;
+	height: 600px;
+	border-radius: 30px;
+}
+#dva{
+	margin-top:15px;
+	width:100%;
+	height: 600px;
+	background-color: #5555aa;
+	border-radius: 30px;
+}
+#dva img{
+	width:100%;
+	height: 600px;
+	border-radius: 30px;
+}
+#tri{
+	margin-top:15px;
+	width:100%;
+	height: 600px;
+	background-color: #5555aa;
+	border-radius: 30px;
+}
+#tri img{
+	border-radius: 30px;
+	width:100%;
+	height: 600px;
+}
+#cet{
+	border-radius: 30px;
+	margin-top:15px;
+	width:100%;
+	height: 600px;
+	background-color: #5555aa;
+}
+#cet img{
+	border-radius: 30px;
+	width:100%;
+	height: 600px;
+}
+
+/* Ovde se zavrsava gallery */
+
+#glava{
+	width:90%;
+	height: 600px;
+	background-color: #0d5e03;	
+	margin:35px auto;
+	border-radius:20px;
+	display:flex;
 	
+}
+#prv{
+	width:50%;
+	height:600px;
+	border-radius:20px 20px 0px 20px;
+	padding:15px;
+	background-color: #0d5e03;	
+}
+#dru{
+	border-radius:20px 20px 20px 0px;
+	float:right;
+	width:50%;
+	height:600px;
+	background-color: #0d5e03;	
+	padding:15px;
+}
+#prv h1{
+	text-align:center;
+	font-family: Ubuntu, sans-serif;
+	margin-bottom:20px;
+}
+
+
+#dru h1{
+	text-align:center;
+	margin-bottom:40px;
+	font-family: Ubuntu, sans-serif;
+}
+iframe{
+	margin-left: 115px;
+}
+#form1{
+	margin-left:320px;
+}
+#form2{
+	margin-left:320px;
+}
+#form3{
+	margin-left:320px;
+}
+#form4{
+	margin-left:320px;
+}
+#form5{
+	margin-left:320px;
+}
+
+/* Ovde se zavrsava contact */
+
+#me{
+	border-radius:20px;
+	margin: 35px auto;
+	padding: 15px;
+	width:50%;
+	height: 500px;
+	background-color: #0d5e03;	
+	display:flex;
+	
+}
+
+#photo{
+	width:50%;
+	height: 500px;
+	border-radius: 30px;
+}
+#photo img{
+	width:80%;
+	height: 500px;
+	border-radius: 30px;
+}
+#textt{
+	align-items:center;
+	display:flex;
+	width:50%;
+	height: 500px;
+	
+}
+#textt p{
+	font-size:25px;
+	border-radius: 30px;
+	border:1px solid #000;
+	padding:25px;
+}
