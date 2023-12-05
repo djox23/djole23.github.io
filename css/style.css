@@ -129,7 +129,14 @@ main{
 	border: 1px solid #000;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
 }
+#life1:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
+}
+	
 #life2{
 	background-image: url("../images/snake.jpg");
 	background-position: -75px -210px;
@@ -139,6 +146,12 @@ main{
 	margin-left: 120px;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
+}
+#life2:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
 }
 #life3{
 	background-image: url("../images/frog.jpg");
@@ -150,6 +163,12 @@ main{
 	margin-left: 120px;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
+}
+#life3:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
 }
 #life4{
 	background-image: url("../images/dolph.jpg");
@@ -160,8 +179,13 @@ main{
 	margin-left: 120px;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
 }
-
+#life4:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
+}
 #life5{
 	background-image: url("../images/macaw.jpg");
 	background-position: -120px -150px;
@@ -170,6 +194,12 @@ main{
 	border: 1px solid #000;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
+}
+#life5:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
 }
 #life6{
 	background-image: url("../images/tu.jpg");
@@ -180,6 +210,12 @@ main{
 	margin-left: 120px;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
+}
+#life6:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
 }
 #life7{
 	background-image: url("../images/monke.jpg");
@@ -191,6 +227,12 @@ main{
 	margin-left: 120px;
 	border-radius: 60px 0px 60px 0px;
 	box-shadow: 10px 10px 9px;
+	transition:width 3s, height 3s,transform 3s;
+}
+#life7:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
 }
 #life8{
 	background-image: url("../images/sl.webp");
@@ -200,6 +242,12 @@ main{
 	border: 1px solid #000;
 	margin-left: 120px;
 	border-radius: 60px 0px 60px 0px;
+	transition:width 3s, height 3s,transform 3s;
+}
+#life8:hover{
+	width:400px;
+	height: 300px;
+	transform:rotate(360deg);
 }
 
 /* Ovde se zavrsava main */
@@ -497,6 +545,11 @@ iframe{
 }
 #form5{
 	margin-left:320px;
+}
+input{
+	padding:10px;
+	border-radius: 15px;
+	border: 2px solid #000;
 }
 
 /* Ovde se zavrsava contact */
